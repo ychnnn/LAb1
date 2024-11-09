@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction</title>
+</head>
+<body>
+	<table border = "1" cellpadding="10">
+		<thead>
+			<tr>
+				<th colspan = "3">About -- 113306049</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan = "3">
+					<p><img src = "C:\Users\angel\Downloads\cat.jpg" width = "140" height = "90" alt = "personal photo"></p>
+					personal photo
+				</td>
+				<td colspan ="2">
+					<label>Name:
+						<input name = "name" type = "text">
+					</label><br>
+					
+					<form>Gender:
+						<input type = "radio" name = "gender" value = "male">Male
+						<input type = "radio" name = "gender" value = "female">Fe1male
+						<input type = "radio" name = "gender" value = "other">Other
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form action = "/action_page.php">Country:
+						<select name = "countries">
+							<option value = "Taipei">Taipei</option>
+							<option value = "Tainan">Tainan</option>
+							<option value = "Taichung">Taichung</option>
+							<option value = "Taoyuan">Taoyuan</option>
+						</select>	
+				</td>
+				<td>
+					<form action = "/action_page.php">
+						<label for = "birthday">Birthday:</label>
+						<input type = "date" id = "birthday" name = "birthday">
+					</form>
+				</td>
+				</td>	
+			</tr>
+			<tr>
+				<td colspan ="2">
+					<form>Email: 
+						<input type = "email" name = "email">
+					</form>	 
+				</td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td colspan ="2">
+					<form action = "/action_page.php" method = "get">
+						<input type ="checkbox" name = "hobby" value = "swimming">Swimming
+						<input type ="checkbox" name = "hobby" value = "volleyball">Volleyball
+						<input type ="checkbox" name = "hobby" value = "movie">Movie
+						<input type ="checkbox" name = "hobby" value = "game">Game
+						<input type ="checkbox" name = "hobby" value = "sleep">sleep
+					</form>	
+				</td>
+			</tr>
+			<tr>
+				<td>Skill</td>
+				<td colspan ="2">
+					<form action = "/action_page.php" method = "get">
+						<input type ="checkbox" name = "skill" value = "java">Java
+						<input type ="checkbox" name = "skill" value = "html">HTML
+						<input type ="checkbox" name = "skill" value = "python">Python
+						<input type ="checkbox" name = "skill" value = "microsoft office">Microsoft Office
+						<input type ="checkbox" name = "skill" value = "premiere">Premiere
+					</form>	
+				</td>
+			</tr>
+			<tr>
+				<td>Say Something</td>
+				<td colspan ="2">
+					<textarea rows = "4" cols = "50" placeholder= "Say something here."></textarea>
+				</td>
+			</tr>
+		</tbody>	
+		<tfoot>
+			<tr>
+				<td colspan = "3">
+					<input type = "submit">
+					<input type = "reset">
+				</td>
+			</tr>
+		</tfoot>			
+	</table>
+			
+
+</body>
+</html>
